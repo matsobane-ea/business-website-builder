@@ -1,5 +1,11 @@
-# Welcome to your Lovable project
+#Business Website Builder – codebase for M2V’s simple marketing site generated with Lovable.dev
+Setup
+Install Node.js and npm.
+Run npm install in the project folder to install dependencies.
 
+Run locally
+Run npm run dev to start the development server.
+Open the URL shown in the terminal in your browser
 ## Project info
 
 **URL**: https://lovable.dev/projects/ca025e28-21c6-4113-a76b-726bdbccefc8
@@ -71,3 +77,4 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Add setup and run instructions to README
