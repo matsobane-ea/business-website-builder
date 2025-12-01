@@ -8,21 +8,6 @@ const services = [
     description: "24/7 fully automated call responders built for business operations.",
     icon: Phone,
   },
-  {
-    title: "Cybersecurity Tools",
-    description: "Email threat prevention, fraud detection, IP verification tools.",
-    icon: Shield,
-  },
-  {
-    title: "Automation Systems",
-    description: "Automate workflows, sales, support, reports, and backend tasks.",
-    icon: Settings,
-  },
-  {
-    title: "Custom AI Solutions",
-    description: "We build fully custom AI systems tailored to your business needs.",
-    icon: Sparkles,
-  },
 ];
 
 const Services = () => {
@@ -39,7 +24,7 @@ const Services = () => {
             Our <span className="text-primary">Services</span>
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 gap-8 max-w-2xl mx-auto">
             {services.map((service, index) => {
               const Icon = service.icon;
               return (

@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { motion } from "framer-motion";
-import { ShieldAlert, Mail, TruckIcon } from "lucide-react";
+import { ShieldAlert, Mail, TruckIcon, Gamepad2, Search } from "lucide-react";
 
 const upcoming = [
   {
@@ -18,6 +18,16 @@ const upcoming = [
     title: "Medical Logistics Platform",
     description: "Fast, on-demand delivery & tracking of medical products.",
     icon: TruckIcon,
+  },
+  {
+    title: "PVP Wager Platform",
+    description: "Player vs Player competitive gaming with secure wagering.",
+    icon: Gamepad2,
+  },
+  {
+    title: "SEO Optimization",
+    description: "Advanced search engine optimization tools & analytics.",
+    icon: Search,
   },
 ];
 

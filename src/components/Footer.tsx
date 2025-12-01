@@ -12,8 +12,11 @@ const Footer = () => {
           <p className="text-muted-foreground text-center">
             © 2025 M2 Vanguard — All Rights Reserved
           </p>
-          <p className="text-sm text-muted-foreground">
-            Registered Business • Tech Solutions Provider
+          <p className="text-sm text-muted-foreground text-center">
+            M2 Vanguard is a tech solutions company registered in South Africa
+          </p>
+          <p className="text-xs text-muted-foreground/70">
+            CIPC Registration Number: [To be added]
           </p>
         </div>
       </div>
