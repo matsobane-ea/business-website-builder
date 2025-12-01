@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col items-center gap-4">
           <div className="flex items-center gap-2">
             <Shield className="w-6 h-6 text-primary" />
-            <span className="text-xl font-bold text-primary">M2 Vanguard</span>
+            <span className="text-xl font-bold text-primary">M2V</span>
           </div>
           <p className="text-muted-foreground text-center">
             © 2025 M2 Vanguard — All Rights Reserved
@@ -16,7 +16,7 @@ const Footer = () => {
             M2 Vanguard is a tech solutions company registered in South Africa
           </p>
           <p className="text-xs text-muted-foreground/70">
-            CIPC Registration Number: [To be added]
+            M2 VANGUARD (PTY) LTD (2025/859678/07)
           </p>
         </div>
       </div>
